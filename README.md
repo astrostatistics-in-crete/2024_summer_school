@@ -19,23 +19,23 @@ to ensure you are using package versions that were found compatible with the sch
 for a `conda` environment:
 
 ```
-conda create --channel conda-forge --name astrostat23 python=3.9.16
-conda activate astrostat23
+conda create --channel conda-forge --name astrostat24 python=3.9.16
+conda activate astrostat24
 conda install nb_conda=2.2.1
-git clone https://github.com/astrostatistics-in-crete/2023_summer_school.git
-cd 2023_summer_school
+git clone https://github.com/astrostatistics-in-crete/2024_summer_school.git
+cd 2024_summer_school
 pip install .
 ```
 
 The `nb_conda` package is automatically registering all conda environments to
-the Jupyter kernels. Alternatively, you can run `python -m ipykernel install --user --name=astrostat23` and a new
+the Jupyter kernels. Alternatively, you can run `python -m ipykernel install --user --name=astrostat24` and a new
 kernel will appear next time you run Jupyter.
 
 ### Downloading without installation (not suggested)
 
 You can download the material in two ways:
 * Download the material using the Code -> Download ZIP button.
-* Running `git clone https://github.com/astrostatistics-in-crete/2023_summer_school.git` (provided `git` is installed in your system)
+* Running `git clone https://github.com/astrostatistics-in-crete/2024_summer_school.git` (provided `git` is installed in your system)
 
 Successfully viewing and using the notebooks depends on the Python version, and 
 the ability to install all dependencies. It is advisable to create a new clean
