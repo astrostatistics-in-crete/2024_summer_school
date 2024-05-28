@@ -22,6 +22,7 @@ for a `conda` environment:
 conda create --channel conda-forge --name astrostat24 python=3.9.16
 conda activate astrostat24
 conda install nb_conda=2.2.1
+export SKLEARN_ALLOW_DEPRECATED_SKLEARN_PACKAGE_INSTALL=True
 git clone https://github.com/astrostatistics-in-crete/2024_summer_school.git
 cd 2024_summer_school
 pip install .
