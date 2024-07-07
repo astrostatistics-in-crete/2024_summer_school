@@ -132,7 +132,7 @@ dmypy.json
 # add AstroStat-specific files here...
 
 # Pytorch-lightning logs
-13_SBI/lightning_logs/
+11_SBI/lightning_logs/
 
 # VSCode settings
 .vscode/
